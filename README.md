@@ -50,6 +50,8 @@ CREATE USER myuser IDENTIFIED BY myuser;
 GRANT ALL PRIVILEGES TO myuser;
 ```
 
+more information: https://github.com/oracle/docker-images/blob/main/OracleDatabase/SingleInstance/README.md
+
 
 ## Kafka with Kafdrop
 ```
