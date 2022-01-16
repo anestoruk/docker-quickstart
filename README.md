@@ -1,3 +1,5 @@
+Quickstart for some useful Docker containers
+
 ## Content
 - [Postgres DB](#postgres-db)
 - [Oracle DB XE](#oracle-db-xe)
@@ -48,8 +50,11 @@ CREATE USER myuser IDENTIFIED BY myuser;
 GRANT ALL PRIVILEGES TO myuser;
 ```
 
+more information: https://github.com/oracle/docker-images/blob/main/OracleDatabase/SingleInstance/README.md
+
 
 ## Kafka with Kafdrop
 ```
 docker-compose -f kafka/docker-compose.yml up -d
 ```
+open Kafdrop console: http://localhost:19000/
