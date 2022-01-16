@@ -1,4 +1,4 @@
-Docker some useful containers quickstart
+Quickstart for some useful Docker containers
 
 ## Content
 - [Postgres DB](#postgres-db)
@@ -55,3 +55,4 @@ GRANT ALL PRIVILEGES TO myuser;
 ```
 docker-compose -f kafka/docker-compose.yml up -d
 ```
+open Kafdrop console: http://localhost:19000/
